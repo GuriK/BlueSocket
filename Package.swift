@@ -24,6 +24,7 @@ let package = Package(
     products: [
         .library(
             name: "Socket",
+	    type: .dynamic,
             targets: ["Socket"]),
     ],
     dependencies: [],
